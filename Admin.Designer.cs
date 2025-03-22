@@ -34,6 +34,8 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Admin));
             this.pnlHeader = new System.Windows.Forms.Panel();
             this.lblMenu = new System.Windows.Forms.Label();
+            this.pictureBox10 = new System.Windows.Forms.PictureBox();
+            this.pictureBox6 = new System.Windows.Forms.PictureBox();
             this.lblExit = new System.Windows.Forms.Label();
             this.lblHiden = new System.Windows.Forms.Label();
             this.lblLogOut = new System.Windows.Forms.Label();
@@ -42,53 +44,51 @@
             this.lblAdminName = new System.Windows.Forms.Label();
             this.flowLayoutPanel1 = new System.Windows.Forms.FlowLayoutPanel();
             this.pnlHome = new System.Windows.Forms.Panel();
+            this.lblHome = new System.Windows.Forms.Label();
             this.pnlAdmin = new System.Windows.Forms.Panel();
+            this.lblAdmin = new System.Windows.Forms.Label();
             this.pnlUser = new System.Windows.Forms.Panel();
+            this.lblUser = new System.Windows.Forms.Label();
             this.pnlOrder = new System.Windows.Forms.Panel();
+            this.lblOrder = new System.Windows.Forms.Label();
             this.pnlCheckOut = new System.Windows.Forms.Panel();
             this.lblCheckOut = new System.Windows.Forms.Label();
+            this.pbIconCheckOut = new System.Windows.Forms.PictureBox();
             this.pnlHelp = new System.Windows.Forms.Panel();
+            this.lblHelp = new System.Windows.Forms.Label();
             this.panel8 = new System.Windows.Forms.Panel();
             this.pnlDanhMuc = new System.Windows.Forms.Panel();
+            this.pbDanhMuc = new System.Windows.Forms.PictureBox();
             this.pnlBan = new System.Windows.Forms.Panel();
+            this.pbBan = new System.Windows.Forms.PictureBox();
             this.pnlTaiKhoan = new System.Windows.Forms.Panel();
+            this.pbTaiKhoan = new System.Windows.Forms.PictureBox();
             this.pnlDoUong = new System.Windows.Forms.Panel();
             this.lblDoUong = new System.Windows.Forms.Label();
-            this.pbDanhMuc = new System.Windows.Forms.PictureBox();
-            this.pbBan = new System.Windows.Forms.PictureBox();
-            this.pbTaiKhoan = new System.Windows.Forms.PictureBox();
             this.pbDoUong = new System.Windows.Forms.PictureBox();
-            this.lblHome = new System.Windows.Forms.Label();
-            this.lblAdmin = new System.Windows.Forms.Label();
-            this.lblUser = new System.Windows.Forms.Label();
-            this.lblOrder = new System.Windows.Forms.Label();
-            this.pbIconCheckOut = new System.Windows.Forms.PictureBox();
-            this.lblHelp = new System.Windows.Forms.Label();
-            this.pictureBox10 = new System.Windows.Forms.PictureBox();
-            this.pictureBox6 = new System.Windows.Forms.PictureBox();
             lblTaiKhoan = new System.Windows.Forms.Label();
             lblBan = new System.Windows.Forms.Label();
             lblDanhMuc = new System.Windows.Forms.Label();
             this.pnlHeader.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox10)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).BeginInit();
             this.flowLayoutPanel1.SuspendLayout();
             this.pnlHome.SuspendLayout();
             this.pnlAdmin.SuspendLayout();
             this.pnlUser.SuspendLayout();
             this.pnlOrder.SuspendLayout();
             this.pnlCheckOut.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pbIconCheckOut)).BeginInit();
             this.pnlHelp.SuspendLayout();
             this.panel8.SuspendLayout();
             this.pnlDanhMuc.SuspendLayout();
-            this.pnlBan.SuspendLayout();
-            this.pnlTaiKhoan.SuspendLayout();
-            this.pnlDoUong.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pbDanhMuc)).BeginInit();
+            this.pnlBan.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pbBan)).BeginInit();
+            this.pnlTaiKhoan.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pbTaiKhoan)).BeginInit();
+            this.pnlDoUong.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pbDoUong)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pbIconCheckOut)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox10)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).BeginInit();
             this.SuspendLayout();
             // 
             // lblTaiKhoan
@@ -141,7 +141,7 @@
             this.pnlHeader.Controls.Add(this.lblAdminName);
             this.pnlHeader.Dock = System.Windows.Forms.DockStyle.Top;
             this.pnlHeader.Location = new System.Drawing.Point(0, 0);
-            this.pnlHeader.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.pnlHeader.Margin = new System.Windows.Forms.Padding(4);
             this.pnlHeader.Name = "pnlHeader";
             this.pnlHeader.Size = new System.Drawing.Size(1580, 160);
             this.pnlHeader.TabIndex = 1;
@@ -160,6 +160,30 @@
             this.lblMenu.Text = "Menu";
             this.lblMenu.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.lblMenu.MouseDown += new System.Windows.Forms.MouseEventHandler(this.panel1_MouseDown);
+            // 
+            // pictureBox10
+            // 
+            this.pictureBox10.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox10.Image")));
+            this.pictureBox10.Location = new System.Drawing.Point(841, 91);
+            this.pictureBox10.Margin = new System.Windows.Forms.Padding(4);
+            this.pictureBox10.Name = "pictureBox10";
+            this.pictureBox10.Size = new System.Drawing.Size(64, 54);
+            this.pictureBox10.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox10.TabIndex = 18;
+            this.pictureBox10.TabStop = false;
+            this.pictureBox10.MouseDown += new System.Windows.Forms.MouseEventHandler(this.panel1_MouseDown);
+            // 
+            // pictureBox6
+            // 
+            this.pictureBox6.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox6.Image")));
+            this.pictureBox6.Location = new System.Drawing.Point(841, 26);
+            this.pictureBox6.Margin = new System.Windows.Forms.Padding(4);
+            this.pictureBox6.Name = "pictureBox6";
+            this.pictureBox6.Size = new System.Drawing.Size(64, 54);
+            this.pictureBox6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox6.TabIndex = 17;
+            this.pictureBox6.TabStop = false;
+            this.pictureBox6.MouseDown += new System.Windows.Forms.MouseEventHandler(this.panel1_MouseDown);
             // 
             // lblExit
             // 
@@ -227,7 +251,7 @@
             this.lblDisplayName.Name = "lblDisplayName";
             this.lblDisplayName.Size = new System.Drawing.Size(429, 62);
             this.lblDisplayName.TabIndex = 5;
-            this.lblDisplayName.Text = "Nguyễn Hữu Toàn";
+            this.lblDisplayName.Text = "Nguyễn Vũ Bảo";
             this.lblDisplayName.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.lblDisplayName.MouseDown += new System.Windows.Forms.MouseEventHandler(this.panel1_MouseDown);
             // 
@@ -256,7 +280,7 @@
             this.flowLayoutPanel1.Controls.Add(this.pnlHelp);
             this.flowLayoutPanel1.Dock = System.Windows.Forms.DockStyle.Left;
             this.flowLayoutPanel1.Location = new System.Drawing.Point(0, 160);
-            this.flowLayoutPanel1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.flowLayoutPanel1.Margin = new System.Windows.Forms.Padding(4);
             this.flowLayoutPanel1.Name = "flowLayoutPanel1";
             this.flowLayoutPanel1.Size = new System.Drawing.Size(248, 674);
             this.flowLayoutPanel1.TabIndex = 3;
@@ -273,6 +297,20 @@
             this.pnlHome.TabIndex = 4;
             this.pnlHome.Click += new System.EventHandler(this.ChangeForm_Click);
             // 
+            // lblHome
+            // 
+            this.lblHome.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblHome.Image = ((System.Drawing.Image)(resources.GetObject("lblHome.Image")));
+            this.lblHome.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblHome.Location = new System.Drawing.Point(15, 23);
+            this.lblHome.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.lblHome.Name = "lblHome";
+            this.lblHome.Size = new System.Drawing.Size(205, 70);
+            this.lblHome.TabIndex = 0;
+            this.lblHome.Text = "Home";
+            this.lblHome.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.lblHome.Click += new System.EventHandler(this.ChangeForm_Click);
+            // 
             // pnlAdmin
             // 
             this.pnlAdmin.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(102)))), ((int)(((byte)(44)))), ((int)(((byte)(33)))));
@@ -283,6 +321,20 @@
             this.pnlAdmin.Size = new System.Drawing.Size(243, 108);
             this.pnlAdmin.TabIndex = 3;
             this.pnlAdmin.Click += new System.EventHandler(this.ChangeForm_Click);
+            // 
+            // lblAdmin
+            // 
+            this.lblAdmin.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblAdmin.Image = ((System.Drawing.Image)(resources.GetObject("lblAdmin.Image")));
+            this.lblAdmin.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblAdmin.Location = new System.Drawing.Point(15, 20);
+            this.lblAdmin.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.lblAdmin.Name = "lblAdmin";
+            this.lblAdmin.Size = new System.Drawing.Size(224, 70);
+            this.lblAdmin.TabIndex = 5;
+            this.lblAdmin.Text = "Admin";
+            this.lblAdmin.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.lblAdmin.Click += new System.EventHandler(this.ChangeForm_Click);
             // 
             // pnlUser
             // 
@@ -295,6 +347,20 @@
             this.pnlUser.TabIndex = 4;
             this.pnlUser.Click += new System.EventHandler(this.ChangeForm_Click);
             // 
+            // lblUser
+            // 
+            this.lblUser.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblUser.Image = ((System.Drawing.Image)(resources.GetObject("lblUser.Image")));
+            this.lblUser.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblUser.Location = new System.Drawing.Point(24, 20);
+            this.lblUser.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.lblUser.Name = "lblUser";
+            this.lblUser.Size = new System.Drawing.Size(188, 70);
+            this.lblUser.TabIndex = 7;
+            this.lblUser.Text = "Stats";
+            this.lblUser.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.lblUser.Click += new System.EventHandler(this.ChangeForm_Click);
+            // 
             // pnlOrder
             // 
             this.pnlOrder.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(102)))), ((int)(((byte)(44)))), ((int)(((byte)(33)))));
@@ -305,6 +371,20 @@
             this.pnlOrder.Size = new System.Drawing.Size(243, 108);
             this.pnlOrder.TabIndex = 4;
             this.pnlOrder.Click += new System.EventHandler(this.ChangeForm_Click);
+            // 
+            // lblOrder
+            // 
+            this.lblOrder.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblOrder.Image = ((System.Drawing.Image)(resources.GetObject("lblOrder.Image")));
+            this.lblOrder.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblOrder.Location = new System.Drawing.Point(19, 22);
+            this.lblOrder.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.lblOrder.Name = "lblOrder";
+            this.lblOrder.Size = new System.Drawing.Size(185, 70);
+            this.lblOrder.TabIndex = 3;
+            this.lblOrder.Text = "Order";
+            this.lblOrder.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.lblOrder.Click += new System.EventHandler(this.ChangeForm_Click);
             // 
             // pnlCheckOut
             // 
@@ -331,6 +411,18 @@
             this.lblCheckOut.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.lblCheckOut.Click += new System.EventHandler(this.ChangeForm_Click);
             // 
+            // pbIconCheckOut
+            // 
+            this.pbIconCheckOut.Image = ((System.Drawing.Image)(resources.GetObject("pbIconCheckOut.Image")));
+            this.pbIconCheckOut.Location = new System.Drawing.Point(15, 21);
+            this.pbIconCheckOut.Margin = new System.Windows.Forms.Padding(4);
+            this.pbIconCheckOut.Name = "pbIconCheckOut";
+            this.pbIconCheckOut.Size = new System.Drawing.Size(67, 66);
+            this.pbIconCheckOut.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pbIconCheckOut.TabIndex = 3;
+            this.pbIconCheckOut.TabStop = false;
+            this.pbIconCheckOut.Click += new System.EventHandler(this.ChangeForm_Click);
+            // 
             // pnlHelp
             // 
             this.pnlHelp.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(102)))), ((int)(((byte)(44)))), ((int)(((byte)(33)))));
@@ -341,6 +433,20 @@
             this.pnlHelp.Size = new System.Drawing.Size(243, 108);
             this.pnlHelp.TabIndex = 4;
             this.pnlHelp.Click += new System.EventHandler(this.ChangeForm_Click);
+            // 
+            // lblHelp
+            // 
+            this.lblHelp.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblHelp.Image = ((System.Drawing.Image)(resources.GetObject("lblHelp.Image")));
+            this.lblHelp.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblHelp.Location = new System.Drawing.Point(19, 20);
+            this.lblHelp.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.lblHelp.Name = "lblHelp";
+            this.lblHelp.Size = new System.Drawing.Size(185, 70);
+            this.lblHelp.TabIndex = 1;
+            this.lblHelp.Text = "Help";
+            this.lblHelp.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.lblHelp.Click += new System.EventHandler(this.ChangeForm_Click);
             // 
             // panel8
             // 
@@ -367,6 +473,18 @@
             this.pnlDanhMuc.TabIndex = 1;
             this.pnlDanhMuc.Click += new System.EventHandler(this.ChangeForm_Click);
             // 
+            // pbDanhMuc
+            // 
+            this.pbDanhMuc.Image = ((System.Drawing.Image)(resources.GetObject("pbDanhMuc.Image")));
+            this.pbDanhMuc.Location = new System.Drawing.Point(168, 14);
+            this.pbDanhMuc.Margin = new System.Windows.Forms.Padding(4);
+            this.pbDanhMuc.Name = "pbDanhMuc";
+            this.pbDanhMuc.Size = new System.Drawing.Size(321, 242);
+            this.pbDanhMuc.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pbDanhMuc.TabIndex = 2;
+            this.pbDanhMuc.TabStop = false;
+            this.pbDanhMuc.Click += new System.EventHandler(this.ChangeForm_Click);
+            // 
             // pnlBan
             // 
             this.pnlBan.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(82)))), ((int)(((byte)(113)))), ((int)(((byte)(255)))));
@@ -380,6 +498,18 @@
             this.pnlBan.TabIndex = 1;
             this.pnlBan.Click += new System.EventHandler(this.ChangeForm_Click);
             // 
+            // pbBan
+            // 
+            this.pbBan.Image = ((System.Drawing.Image)(resources.GetObject("pbBan.Image")));
+            this.pbBan.Location = new System.Drawing.Point(197, 17);
+            this.pbBan.Margin = new System.Windows.Forms.Padding(4);
+            this.pbBan.Name = "pbBan";
+            this.pbBan.Size = new System.Drawing.Size(256, 236);
+            this.pbBan.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pbBan.TabIndex = 3;
+            this.pbBan.TabStop = false;
+            this.pbBan.Click += new System.EventHandler(this.ChangeForm_Click);
+            // 
             // pnlTaiKhoan
             // 
             this.pnlTaiKhoan.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(82)))), ((int)(((byte)(113)))), ((int)(((byte)(255)))));
@@ -392,6 +522,18 @@
             this.pnlTaiKhoan.Size = new System.Drawing.Size(645, 318);
             this.pnlTaiKhoan.TabIndex = 1;
             this.pnlTaiKhoan.Click += new System.EventHandler(this.ChangeForm_Click);
+            // 
+            // pbTaiKhoan
+            // 
+            this.pbTaiKhoan.Image = ((System.Drawing.Image)(resources.GetObject("pbTaiKhoan.Image")));
+            this.pbTaiKhoan.Location = new System.Drawing.Point(168, 17);
+            this.pbTaiKhoan.Margin = new System.Windows.Forms.Padding(4);
+            this.pbTaiKhoan.Name = "pbTaiKhoan";
+            this.pbTaiKhoan.Size = new System.Drawing.Size(321, 242);
+            this.pbTaiKhoan.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pbTaiKhoan.TabIndex = 3;
+            this.pbTaiKhoan.TabStop = false;
+            this.pbTaiKhoan.Click += new System.EventHandler(this.ChangeForm_Click);
             // 
             // pnlDoUong
             // 
@@ -418,42 +560,6 @@
             this.lblDoUong.Text = "Đồ uống";
             this.lblDoUong.Click += new System.EventHandler(this.ChangeForm_Click);
             // 
-            // pbDanhMuc
-            // 
-            this.pbDanhMuc.Image = ((System.Drawing.Image)(resources.GetObject("pbDanhMuc.Image")));
-            this.pbDanhMuc.Location = new System.Drawing.Point(168, 14);
-            this.pbDanhMuc.Margin = new System.Windows.Forms.Padding(4);
-            this.pbDanhMuc.Name = "pbDanhMuc";
-            this.pbDanhMuc.Size = new System.Drawing.Size(321, 242);
-            this.pbDanhMuc.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pbDanhMuc.TabIndex = 2;
-            this.pbDanhMuc.TabStop = false;
-            this.pbDanhMuc.Click += new System.EventHandler(this.ChangeForm_Click);
-            // 
-            // pbBan
-            // 
-            this.pbBan.Image = ((System.Drawing.Image)(resources.GetObject("pbBan.Image")));
-            this.pbBan.Location = new System.Drawing.Point(197, 17);
-            this.pbBan.Margin = new System.Windows.Forms.Padding(4);
-            this.pbBan.Name = "pbBan";
-            this.pbBan.Size = new System.Drawing.Size(256, 236);
-            this.pbBan.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pbBan.TabIndex = 3;
-            this.pbBan.TabStop = false;
-            this.pbBan.Click += new System.EventHandler(this.ChangeForm_Click);
-            // 
-            // pbTaiKhoan
-            // 
-            this.pbTaiKhoan.Image = ((System.Drawing.Image)(resources.GetObject("pbTaiKhoan.Image")));
-            this.pbTaiKhoan.Location = new System.Drawing.Point(168, 17);
-            this.pbTaiKhoan.Margin = new System.Windows.Forms.Padding(4);
-            this.pbTaiKhoan.Name = "pbTaiKhoan";
-            this.pbTaiKhoan.Size = new System.Drawing.Size(321, 242);
-            this.pbTaiKhoan.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pbTaiKhoan.TabIndex = 3;
-            this.pbTaiKhoan.TabStop = false;
-            this.pbTaiKhoan.Click += new System.EventHandler(this.ChangeForm_Click);
-            // 
             // pbDoUong
             // 
             this.pbDoUong.Image = ((System.Drawing.Image)(resources.GetObject("pbDoUong.Image")));
@@ -465,112 +571,6 @@
             this.pbDoUong.TabIndex = 2;
             this.pbDoUong.TabStop = false;
             this.pbDoUong.Click += new System.EventHandler(this.ChangeForm_Click);
-            // 
-            // lblHome
-            // 
-            this.lblHome.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblHome.Image = ((System.Drawing.Image)(resources.GetObject("lblHome.Image")));
-            this.lblHome.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.lblHome.Location = new System.Drawing.Point(15, 23);
-            this.lblHome.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.lblHome.Name = "lblHome";
-            this.lblHome.Size = new System.Drawing.Size(205, 70);
-            this.lblHome.TabIndex = 0;
-            this.lblHome.Text = "Home";
-            this.lblHome.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.lblHome.Click += new System.EventHandler(this.ChangeForm_Click);
-            // 
-            // lblAdmin
-            // 
-            this.lblAdmin.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblAdmin.Image = ((System.Drawing.Image)(resources.GetObject("lblAdmin.Image")));
-            this.lblAdmin.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.lblAdmin.Location = new System.Drawing.Point(15, 20);
-            this.lblAdmin.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.lblAdmin.Name = "lblAdmin";
-            this.lblAdmin.Size = new System.Drawing.Size(224, 70);
-            this.lblAdmin.TabIndex = 5;
-            this.lblAdmin.Text = "Admin";
-            this.lblAdmin.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.lblAdmin.Click += new System.EventHandler(this.ChangeForm_Click);
-            // 
-            // lblUser
-            // 
-            this.lblUser.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblUser.Image = ((System.Drawing.Image)(resources.GetObject("lblUser.Image")));
-            this.lblUser.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.lblUser.Location = new System.Drawing.Point(24, 20);
-            this.lblUser.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.lblUser.Name = "lblUser";
-            this.lblUser.Size = new System.Drawing.Size(188, 70);
-            this.lblUser.TabIndex = 7;
-            this.lblUser.Text = "Stats";
-            this.lblUser.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.lblUser.Click += new System.EventHandler(this.ChangeForm_Click);
-            // 
-            // lblOrder
-            // 
-            this.lblOrder.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblOrder.Image = ((System.Drawing.Image)(resources.GetObject("lblOrder.Image")));
-            this.lblOrder.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.lblOrder.Location = new System.Drawing.Point(19, 22);
-            this.lblOrder.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.lblOrder.Name = "lblOrder";
-            this.lblOrder.Size = new System.Drawing.Size(185, 70);
-            this.lblOrder.TabIndex = 3;
-            this.lblOrder.Text = "Order";
-            this.lblOrder.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.lblOrder.Click += new System.EventHandler(this.ChangeForm_Click);
-            // 
-            // pbIconCheckOut
-            // 
-            this.pbIconCheckOut.Image = ((System.Drawing.Image)(resources.GetObject("pbIconCheckOut.Image")));
-            this.pbIconCheckOut.Location = new System.Drawing.Point(15, 21);
-            this.pbIconCheckOut.Margin = new System.Windows.Forms.Padding(4);
-            this.pbIconCheckOut.Name = "pbIconCheckOut";
-            this.pbIconCheckOut.Size = new System.Drawing.Size(67, 66);
-            this.pbIconCheckOut.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pbIconCheckOut.TabIndex = 3;
-            this.pbIconCheckOut.TabStop = false;
-            this.pbIconCheckOut.Click += new System.EventHandler(this.ChangeForm_Click);
-            // 
-            // lblHelp
-            // 
-            this.lblHelp.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblHelp.Image = ((System.Drawing.Image)(resources.GetObject("lblHelp.Image")));
-            this.lblHelp.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.lblHelp.Location = new System.Drawing.Point(19, 20);
-            this.lblHelp.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.lblHelp.Name = "lblHelp";
-            this.lblHelp.Size = new System.Drawing.Size(185, 70);
-            this.lblHelp.TabIndex = 1;
-            this.lblHelp.Text = "Help";
-            this.lblHelp.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.lblHelp.Click += new System.EventHandler(this.ChangeForm_Click);
-            // 
-            // pictureBox10
-            // 
-            this.pictureBox10.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox10.Image")));
-            this.pictureBox10.Location = new System.Drawing.Point(841, 91);
-            this.pictureBox10.Margin = new System.Windows.Forms.Padding(4);
-            this.pictureBox10.Name = "pictureBox10";
-            this.pictureBox10.Size = new System.Drawing.Size(64, 54);
-            this.pictureBox10.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox10.TabIndex = 18;
-            this.pictureBox10.TabStop = false;
-            this.pictureBox10.MouseDown += new System.Windows.Forms.MouseEventHandler(this.panel1_MouseDown);
-            // 
-            // pictureBox6
-            // 
-            this.pictureBox6.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox6.Image")));
-            this.pictureBox6.Location = new System.Drawing.Point(841, 26);
-            this.pictureBox6.Margin = new System.Windows.Forms.Padding(4);
-            this.pictureBox6.Name = "pictureBox6";
-            this.pictureBox6.Size = new System.Drawing.Size(64, 54);
-            this.pictureBox6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox6.TabIndex = 17;
-            this.pictureBox6.TabStop = false;
-            this.pictureBox6.MouseDown += new System.Windows.Forms.MouseEventHandler(this.panel1_MouseDown);
             // 
             // Admin
             // 
@@ -588,29 +588,29 @@
             this.StartPosition = System.Windows.Forms.FormStartPosition.Manual;
             this.Text = "Form3";
             this.pnlHeader.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox10)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).EndInit();
             this.flowLayoutPanel1.ResumeLayout(false);
             this.pnlHome.ResumeLayout(false);
             this.pnlAdmin.ResumeLayout(false);
             this.pnlUser.ResumeLayout(false);
             this.pnlOrder.ResumeLayout(false);
             this.pnlCheckOut.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.pbIconCheckOut)).EndInit();
             this.pnlHelp.ResumeLayout(false);
             this.panel8.ResumeLayout(false);
             this.pnlDanhMuc.ResumeLayout(false);
             this.pnlDanhMuc.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pbDanhMuc)).EndInit();
             this.pnlBan.ResumeLayout(false);
             this.pnlBan.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pbBan)).EndInit();
             this.pnlTaiKhoan.ResumeLayout(false);
             this.pnlTaiKhoan.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pbTaiKhoan)).EndInit();
             this.pnlDoUong.ResumeLayout(false);
             this.pnlDoUong.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pbDanhMuc)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pbBan)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pbTaiKhoan)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pbDoUong)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pbIconCheckOut)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox10)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).EndInit();
             this.ResumeLayout(false);
 
         }

@@ -286,7 +286,7 @@ namespace CoffeeShopManagement.DAO
                         }
                         else
                         {
-                            MessageBox.Show("Không tìm thấy file ảnh!");
+                            //MessageBox.Show("Không tìm thấy file ảnh!");
                         }
                     }
                     else

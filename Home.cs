@@ -35,9 +35,9 @@ namespace CoffeeShopManagement
 
                 pbAvatar.Image = Image.FromFile(obj);
             }
-            catch (Exception)
+            catch (Exception ex)
             {
-                //MessageBox.Show($"Không thể tải ảnh: {ex.Message}", "Lỗi", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                MessageBox.Show($"Không thể tải ảnh: {ex.Message}", "Lỗi", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
         }
 
