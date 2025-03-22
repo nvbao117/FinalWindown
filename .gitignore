@@ -1,0 +1,29 @@
+# Thư mục build
+bin/
+obj/
+packages/
+.vs/
+Debug/
+Release/
+
+# Loại bỏ các file lớn và không cần thiết
+*.a
+*.nupkg
+*.rar
+
+# File cấu hình cá nhân
+*.user
+*.suo
+
+# Log và Backup
+*.log
+*.bak
+*.tmp
+
+# DLL, EXE
+*.dll
+*.exe
+
+# Tệp JSON và cấu hình
+*.json
+*.config
